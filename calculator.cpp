@@ -40,6 +40,27 @@ int main()
         std::cin >> num1 >> num2;
         std::cout << "Their sum is " << (num1 + num2) << std::endl;
       }
+      else 
+      { 
+        if (user_input == 2)
+        {
+
+        }
+        else
+        {
+          if (user_input == 3)
+          {
+
+          }
+          else (user_input ==4)
+          {
+
+          }
+        }
+        
+        
+      }
+
     }
   }
   return 0;
