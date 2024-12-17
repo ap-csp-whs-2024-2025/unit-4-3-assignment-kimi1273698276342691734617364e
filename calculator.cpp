@@ -44,17 +44,60 @@ int main()
       { 
         if (user_input == 2)
         {
-
+          std::cout << "Enter two numbers\n";
+          std::cin >> num1 >> num2;
+          std:: cout << "Their difference is " << (num1 - num2) << std::endl;
         }
         else
         {
           if (user_input == 3)
           {
-
+            std::cout << "Enter two numbers\n";
+            std:: cin >> num1 >> num2;
+            std:: cout << "Their product is " << (num1 * num2) << std::endl;
           }
-          else (user_input ==4)
+          else 
           {
-
+            if (user_input == 4)
+            {
+             std::cout << "Enter two numbers\n";
+             std::cin >> numerator >> denominator;
+             if (denominator == 0)
+             {
+              std::cout << "ERROR\n";
+             }
+             else 
+             {
+              std::cout << "Their quotient is " << (numerator / denominator) << std::endl;
+             }
+            }
+            else
+            {
+              if (user_input == 5)
+              {
+               std::cout << "Enter a number \n";
+               std::cin >> num1;
+               if (num1 < 0)
+               {
+                std::cout << "ERROR\n";
+               }
+               else
+               {
+                std::cout << "The square root is " << sqrt(num1) << std::endl;
+               }
+              }
+              else
+              {
+                if (user_input == 99)
+                {
+                  std::cout << "Goodbye! :)\n";
+                }
+                else
+                {
+                  std::cout << "Invalid...please choose from the list.\n";
+                }
+              }
+            }
           }
         }
         
